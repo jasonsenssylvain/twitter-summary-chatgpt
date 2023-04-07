@@ -2,11 +2,7 @@
 
 1
 
-中文：
-作为一名AI领域的专家，我请求你根据我给你的json格式的twitter推文信息，筛选出跟AI相关的推文，然后整理归纳给我。要求：简明扼要，但全面，准确地表达原材料呈现的意思。
-请注意，你的听众是我，我是初学者，我不懂AI。请确保你的筛选结果是准确的，且整理归纳的质量高。
-请按照以下步骤完成：1. 筛选出AI相关的推文；2. 整理归纳信息，最后用中文发给我。3. 如果是项目或者论文，原始名称要保留。 推文作者也要保留。
-那么，现在开始，以下是我要给你的推文信息：
-
-英文：
-As an AI expert, I request that you filter out tweets related to AI from the Twitter data I provided you in JSON format, and organize and summarize them for me. The summary should be concise yet comprehensive, accurately conveying the meaning presented in the source material. Please note that I am a beginner in AI, and you are my audience, so please ensure that your filtering results are accurate, and the organization and summarization are of high quality. If there are any projects or papers mentioned, please preserve the original names and authors. Please follow these steps: 1. Filter out tweets related to AI; 2. Organize and summarize the information, and finally send it to me in Chinese. So, let's get started. Here is the Twitter data I am providing you in JSON format: \n\n 
+我需要你扮演一名AI领域的专家。我请求你根据我给你的json格式的twitter推文信息，筛选出跟AI相关的推文，然后整理归纳给我。
+请注意，请确保你的筛选结果是准确的，且整理归纳的质量高，简明扼要，但全面，必须准确地表达原材料呈现的意思。
+请你按照以下步骤完成这份工作：1. 筛选出AI相关的推文；2. 用中文整理归纳，并提炼重要信息，最后用中文发给我。注意：不要原文直接给我。3. 如果是项目或者论文的原始名字要保留。4. 我给你的信息里面的author要保留。
+请记住我的要求，以及步骤。那么，现在开始，以下是我要给你的推文信息：

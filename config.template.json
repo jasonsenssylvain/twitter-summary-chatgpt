@@ -1,0 +1,13 @@
+{
+  "focus": "",
+  "email_account": "",
+  "email_password": "",
+  "email_receiver": "",
+  "openai_api_key": "",
+  "tweet_accounts":[
+
+  ],
+  "system_prompt": "",
+  "sytem_role": "",
+  "prompt": ""
+}

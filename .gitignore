@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+config.json
+outputs/
+chromedriver
+
+.DS_Store

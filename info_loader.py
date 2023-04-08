@@ -130,10 +130,13 @@ def get_summary(data_content):
     ]
   )
   
-  print("prompt: \n")
-  print(prompt)
+  # print("prompt: \n")
+  # print(prompt)
 
   summary = response.choices[0].message.content
+  
+  print("summary: \n", summary)
+  print("\n\n\n")
   return summary
 
 def ask_openai(tweets):
@@ -188,14 +191,18 @@ def parse_rows_2_html(origin_rows):
   table = "<table border='1'>"
   # 添加表头
   table += "<tr>"
-  for column in headers:
-    table += f"<th>{column}</th>"
+  # for column in headers:
+  #   table += f"<th>{column}</th>"
+  table += f"<th>author</th>"
+  table += f"<th>content</th>"
   table += "</tr>"
   # 添加数据
   for row in origin_rows:
     table += "<tr>"
-    for key, value in row.items():
-      table += f"<td>{value}</td>"
+    # for key, value in row.items():
+    #   table += f"<td>{value}</td>"
+    table += f"<td>{row['author']}</td>"
+    table += f"<td>{row['content']}</td>"
     table += "</tr>"
   table += "</table>"
   return table

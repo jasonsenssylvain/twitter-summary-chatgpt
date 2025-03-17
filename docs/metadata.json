@@ -1,0 +1,6 @@
+{
+  "name": "USDT",
+  "symbol": "USDT",
+  "description": "USDT token for test.",
+  "image": "https://raw.githubusercontent.com/solana-developers/opos-asset/main/assets/CompressedCoil/image.png"
+}
